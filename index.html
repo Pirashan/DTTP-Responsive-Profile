@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- required meta tag for mobile repsonsiveness -->
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Pirashan Ravikumaran</title>
+    <!-- this link tag displays a little icon in the tab of your 
+        active browser window. It's called a "favicon"
+        (favorite icon)-->
+    <link rel="icon" type="image/gif" href="./favicon.gif">
+    <!-- this is the external stylesheet that contains
+        the @media screen breakpoint rules
+    -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="navhead">Pirashan Ravikumaran</h1>
+        <nav>
+
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact Me</a>
+            <a href="https://drive.google.com/file/d/1sRKQJn5VjAUxhCwygr0oqqpKFR6O__jc/view">Resume</a>
+        </nav>
+    </header>
+
+    <div id="main-bio">
+        <div style="display:flex;">
+          <img src="/DTTP-Responsive-Profile/assets/profile_image.jpeg" alt="Pirashan Ravikumaran">
+          <img src="/DTTP-Responsive-Profile/assets/profilepic.jpg" alt="Pirashan Ravikumaran">
+          <p>Duis aute irure</p>
+        </div>
+      </div>
+
+    <main>
+
+        <section class="content-container">
+            <div class="pair-container">
+                <div class="left-column" id="about">
+                    <h2>About Me</h2>
+                </div>
+                <div class="right-column">
+                    <p>
+                        Hello, I'm Pirashan Ravikumaran, a tech enthusiast with a 
+                        background in Chemical Engineering. I embarked on a journey 
+                        to switch industries and pursue my passion for tech, having 
+                        been exposed to the possibilities of software through my 
+                        various internships. Coming from a background in industries 
+                        such as manufacturing, I have seen the legacy processes 
+                        still in place, and have in turn seen the opportunity for 
+                        growth through the use of technology. Over the past year, 
+                        I've been diligently self-studying computer science concepts, 
+                        with a focus on full stack development.
+                    </p>
+                </div>
+            </div>
+            <div class="pair-container" id="work">
+                <div class="left-column">
+                    <h2>Work</h2>
+                </div>
+                <div class="right-column">
+                    <section>
+                        <div class="image-container">
+                            <a href="https://example.com" target="_blank">
+                                <img src="/DTTP-Responsive-Profile/assets/project1.jpeg" alt="Image 1">
+                                <div class="caption">Project 1</div>
+                            </a>
+                        </div>
+                
+                        <div class="image-container">
+                            <a href="https://example.com" target="_blank">
+                                <img src="/DTTP-Responsive-Profile/assets/project2.webp" alt="Image 2">
+                                <div class="caption">Project 2</div>
+                            </a>
+                        </div>
+                
+                        <div class="image-container">
+                            <a href="https://example.com" target="_blank">
+                                <img src="/DTTP-Responsive-Profile/assets/project3.png" alt="Image 3">
+                                <div class="caption">Project 3</div>
+                            </a>
+                        </div>
+                
+                        <div class="image-container">
+                            <a href="https://example.com" target="_blank">
+                                <img src="/DTTP-Responsive-Profile/assets/project4.png" alt="Image 4">
+                                <div class="caption">Project 4</div>
+                            </a>
+                        </div>
+                
+                        <div class="image-container">
+                            <a href="https://example.com" target="_blank">
+                                <img src="/DTTP-Responsive-Profile/assets/project5.png" alt="Image 5">
+                                <div class="caption">Project 5</div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div> 
+            <div class="pair-container" id="contact">
+                <div class="left-column">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="right-column">
+                    <p>
+                        Contact Me
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <!-- hint: I can place a script tag here to load an
+        external javascript file as well as place it in the
+        head tags. Placing it here ensure that all the elements
+        of my web page are rendered first, so that the javascript
+        code can recognize the elenents above the closed body
+        tag :) -->
+    <script src="./assets/js/device.js">
+    </script>
+</body>
+</html>
